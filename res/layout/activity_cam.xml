@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menu_title_bg" >
+
+        <TextView
+            android:id="@+id/camText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="CAM test"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/camStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="21dp"
+            android:background="@drawable/button_close"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/camStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/button_style"
+        android:text="Start"
+        android:textSize="40sp" />
+    <Button
+        android:id="@+id/camFail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/button_style"
+        android:text="Fail"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/camDesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Touch the screen, please check \n the Channel(1~4) changes in the CAM."
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/camStart"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="27dp"
+        android:text="11/14"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

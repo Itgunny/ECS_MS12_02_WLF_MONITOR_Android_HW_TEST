@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/timeSetLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/touchTitleLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menu_title_bg" >
+
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="SET TIME"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/timeSetStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/button_close" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/timeSetButton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="27dp"
+        android:text="1/14"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/timeSetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+  		android:layout_marginRight="100dp"
+        android:background="@drawable/button_style"
+        android:text="Setting"
+        android:layout_marginBottom="28dp"
+        android:textSize="40dp" />
+    <Button
+        android:id="@+id/timeFailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/button_style"
+        android:text="Fail"
+        android:layout_marginBottom="28dp"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/expTimeText"
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Please press the CLOCK SET\nin the WL-F Test MMI"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="35sp" />
+    
+</RelativeLayout>

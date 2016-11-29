@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keypadtwoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menu_title_bg" >
+
+        <TextView
+            android:id="@+id/keypadtwoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="LONGKEY TEST"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/kepadtwoStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="21dp"
+            android:background="@drawable/button_close"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/keypadtwoNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+  		android:layout_marginRight="100dp"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/button_style"
+        android:text="Success"
+        android:textSize="40sp" />
+    
+    <Button
+        android:id="@+id/keypadtwoFail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/button_style"
+        android:text="Fail"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/doubleKeyView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="111dp"
+        android:src="@drawable/keypad2_01_n" />
+    
+    <ImageView
+        android:id="@+id/doubleKeyView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="432dp"
+        android:layout_marginTop="111dp"
+        android:src="@drawable/keypad2_02_n" />
+    <ImageView
+        android:id="@+id/doubleKeyView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="241dp"
+        android:src="@drawable/keypad2_03_1_n" />
+    
+    <ImageView
+        android:id="@+id/doubleKeyView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="241dp"
+        android:src="@drawable/keypad2_03_2_n" />
+    
+    <ImageView
+        android:id="@+id/doubleKeyView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="432dp"
+        android:layout_marginTop="241dp"
+        android:src="@drawable/keypad2_04_1_n" />
+    <ImageView
+        android:id="@+id/doubleKeyView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="542dp"
+        android:layout_marginTop="241dp"
+        android:src="@drawable/keypad2_04_2_n" />
+    <ImageView
+        android:id="@+id/doubleKeyView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="651dp"
+        android:layout_marginTop="241dp"
+        android:src="@drawable/keypad2_04_3_n" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/keypadtwoNext"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="27dp"
+        android:text="10/14"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

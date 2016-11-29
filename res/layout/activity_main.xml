@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="taeha.wheelloader.fserieshwtest.MainActivity" >
+
+    <EditText
+        android:id="@+id/mainEditText"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Please enter the LOT Number."
+        android:textSize="25sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mainEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:gravity="center"
+        android:text="F Monitor Hardware Test\nver 3.0"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/mainStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Start"
+        android:textSize="40sp" 
+        android:background="@drawable/button_style"/>
+
+</RelativeLayout>

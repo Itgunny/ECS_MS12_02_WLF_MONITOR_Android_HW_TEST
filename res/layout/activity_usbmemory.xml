@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/usbLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/menu_title_bg" >
+
+            <TextView
+                android:id="@+id/usbText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="USB Memory Test"
+                android:textSize="40dp" />
+
+            <Button
+                android:id="@+id/usbStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/button_close"
+             />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/usbImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="66dp"
+            android:layout_toLeftOf="@+id/isConnectedText"
+            android:adjustViewBounds="true"
+            android:maxWidth="100dp"
+            android:src="@drawable/usb_icon" />
+
+        <TextView
+            android:id="@+id/isConnectedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="126dp"
+            android:background="@drawable/usb_disconnected"
+            android:textSize="20sp" />
+
+       <TextView
+           android:id="@+id/result"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/usbNext"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="27dp"
+           android:text="2/14"
+           android:textColor="#ffffff"
+           android:textSize="20sp" />
+
+       <Button
+           android:id="@+id/usbNext"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_centerHorizontal="true"
+           android:layout_marginBottom="29dp"
+           android:background="@drawable/button_style"
+           android:text="Next"
+           android:textSize="40sp" />
+
+</RelativeLayout>
